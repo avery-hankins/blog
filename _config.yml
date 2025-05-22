@@ -152,6 +152,24 @@ paginate: 10
 # The base URL of your site
 baseurl: "/blog"
 
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      title:
+      description:
+      image:
+      categories:
+      tags:
+    posts:
+      title:
+      description:
+      data: 
+      image:
+      categories:
+      tags:
+      published: false
+      sitemap: false
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
